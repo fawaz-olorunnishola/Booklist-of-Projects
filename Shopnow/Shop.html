@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUCTS</title>
+    <script type="text/javascripts" src="js/shopnow.js"></script>
+    <link rel="stylesheet" href="./Style/style.css">
+    <style>
+        body{
+            background-color: lightblue;
+        }
+        footer{
+            background-color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownclick">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#more">More</a></li>
+            <li><a href="/log.html">About</a></li>
+            <li><a href="/Num.html">Contact</a></li>
+            <li class="top-nav-right"><a href="/New.html">Sign up</a></li>
+            <li class="topnav-right"><a href="/About.html">Sign in</a></li>
+            <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+        </ul>
+    </nav>
+    <input type="color" name="pick-mode">
+    <input type="range" step="0.1" min="0" max="1" name="brightness">
+    <script>
+        (function(){
+            const colorPicker = document.querySelector('[name="pick-mode"]');
+            const bodyElement = document.querySelector('body')
+            const brightnessControl = document.querySelector('[name="brightness"]')
+
+            colorPicker.addEventListener('input', function(e){
+                bodyElement.style.backgroundColor = e.target.value
+                // console.log(e.target.value)
+            })
+
+            brightnessControl.addEventListener('change', function(e) {
+                bodyElement.style.opacity = e.target.value
+            })
+        })()
+    </script>
+    <div class="container" id="section-1-gradient">
+        <div class="row">
+            <div class="col-6">
+                <div class="shopnow-col">
+                    <h1 class="large"><i>Facebook</i></h1>
+                    <p class="large"><b> Let'sSHOP and chat !!!</b></p>
+    </div>
+    <form action="#" method="get">
+        <div>
+            <h2><b>Phone No:</b></h2>
+            <input class="inputbox" name="Phone No:" type="text" placeholder="e.g +2347081549347">
+            <h2><b>Password</b></h2>
+            <input class="inputbox" name="Password" type="password" placeholder="Enter your password">
+            <button class="neu-btn">
+                <!-- <svg></svg> -->
+                <span><a href="index.html">let's go</a></span>
+            </button>
+                         </div>
+    </form>
+    </div>
+            <div class="col-6">
+                <div class="rightside-col">
+                    <div class="shopnowidcontainer">
+                        <iframe width="565" height=315 src="http://www.youtube.com/embed/12khdDu3wzy"
+                        title="SHOPNOW muslim stuffs" frameborder="0"
+                        allow="accelrometer; autoplay; clipboard-write; encyrpted-media; gyroscope; picture-in picture"
+                        allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <a href="#some-content">Go down</a>
+    <header id="some-content" style="position: absolute; button: -150px"> -->
+        <h1 class="section2Header">BUY THE BEST.</h1>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="box">
+                        <img class="box-img" src="/image/ghost 1.jpg">
+                        <div class="box-label">Fast delivery</div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="box">
+                <img class="box-img" src="/image/ghost 2.jpg">
+                <div class="box-label">Doorstep delivery</div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="box">
+                <img class="box-img" src="/image/ghost 1.jpg">
+                <div class="box-label">
+                    <span class="order-btn">Order now</span>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="ordernow">Order now</button>
+            </div>
+        </div>
+        <hr>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-7">
+                <article>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                         elit. Sit debitis ratione laborum porro mollitia, 
+                         delectus animi quisquam neque ab dolore velit distinctio
+                         quod quaerat sequi soluta, possimus perferendis asperiores minus.
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                         Quod aspernatur optio, deserunt recusandae voluptatum adipisci reiciendis
+                          eveniet similique veritatis, exercitationem, libero mollitia. 
+                         Nam cumque molestiae reprehenderit cum quasi voluptatum ex!
+                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                         Dicta animi harum vel impedit debitis,
+                         laudantium et non provident quos, autem illo, 
+                         nulla perspiciatis porro dolor nisi qui. Vel, libero aliquid.
+                    </p>
+                </article>
+            </div>
+            <div class="col-5">
+                <div class="shopIcon">
+                    <img src="/image/ghost 2.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+            
+
+            <footer class="footsy">
+                <div class="row">
+                    <div class="col-3 mobilestack">
+                        <h1>Company</h1>
+                        <ul>
+                            <li><a href="About.html"> About</a></li>
+                            <li>Careers</li>
+                            <li>Blogs</li>
+                        </ul>
+                    </div>
+                <div class="col-3 mobilestack">
+                    <h1>Support</h1>
+                    <ul>
+                        <li>Terms&condition</li>
+                        <li>Privacy&Policy</li>
+                        <li>FAQ</li>
+                    </ul>
+                </div>
+                <div class="col-3 mobilestack">
+                    <h1>Help</h1>
+                    <ul>
+                        <li>Delivery</li>
+                        <li>Products</li>
+                        <li>Payments</li>
+                    </ul>
+                </div>
+                <div class="col-3 mobilstack">
+                    <h1>Contact</h1>
+                    <ul>
+                        <li>+234 074 007 1639</li>
+                        <li>PRODUCTS</li>
+                        <li>PRODUCTS</li>
+                    </ul>
+                </div>
+            </div>
+            </footer>
+
+            <script type="text/javascript">
+                function dropdownMenu() {
+                    var x = document.getElementById("dropdownclick");
+                    if(x.className === "topnav") {
+                        x.className += "responsive"
+                        <!-- change topnav to topnav.responsive -->
+                    } else {
+                        x.className = "topnav"
+                    }
+                }
+            </script>
+    </body>
+
+
+</html>

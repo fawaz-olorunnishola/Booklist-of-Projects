@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/New.css">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-image: url(/image/ghost\ 1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    #alternative {
+        color: navy;
+    }
+
+    .container {
+        /* align-self: center; */
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+        margin: auto;
+        background-color: #eee;
+        border: 1px solid #e0e;
+        border-radius: 10px;
+        padding: 1em;
+    }
+
+    button {
+        border: 2px solid blue;
+        color: navy;
+        border-radius: 7px;
+        max-width: max-content;
+        padding: 0px 50px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 16px;
+        cursor: pointer;
+        margin-bottom: 5px;
+        background-color: lightblue;
+    }
+    #Logo{
+        width:  min-content;
+        /* background-color: #00fff0; */
+    }
+    #new{
+        text-align: left;
+    }
+    /* .row-O{
+    width: 100%;
+    /* display: flex; */
+    /* flex-wrap: wrap;
+    align-items: center;
+    border-top-left-radius: 2px;
+} */
+/* .col-12{
+    width: 100%; */
+/* } */ */
+</style>
+
+<body>
+    <div class="container">
+        <h2>Welcome to FACEBOOK</h2>
+        <div class="btn">
+            <p id="new"><b><span style="color: navy;">Create new account:</span></b></p> 
+            <img src="image/Facebook.png" alt="Logo" id="logo">
+            <form action="#" method="get">
+                <label for="first-Name">
+                    <input type="text" name="first_name" placeholder="Enter your first name">
+                </label>
+                <label for="Last-name">
+                    <input type="text" name="last_name" placeholder="Enter your last name">
+                </label>
+                <button class="neu-btn" onclick="neu-btn()">
+                    <span><a href="Num.html">Next</a></span>
+                </button>
+        </div>
+        </form>
+        <table class="alternative">
+            <tr>
+                <td class="label"></td>
+                <td class="value"><a href="About.html">log in here!</a></td>
+            </tr>
+        </table>
+                    <script src="index.js"></script>
+            
+    </div>
+</body>
+
+</html>

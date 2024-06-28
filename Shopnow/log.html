@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: fixed;
+            background-color: gray;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+        }
+        h1{
+            color: navy;
+            text-align: center;
+        }
+        .container {
+        /* align-self: center; */
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+        margin: auto;
+        background-color: #eee;
+        border: 1px solid #e0e;
+        border-radius: 10px;
+        padding: 1em;
+    }
+    #facebook{
+        width: min-content;
+        align-self: center;
+    }
+    .S-btn{
+        border: 2px solid blue;
+        color: navy;
+        border-radius: 7px;
+        max-width: max-content;
+        padding: 0px 50px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 16px;
+        cursor: pointer;
+        margin-bottom: 5px;
+        background-color: lightblue;
+        align-self: center;
+    }
+    #about{
+        align-self: flex-start;
+        border: 1px solid navy;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="/image/Facebook.png" alt="Logo" id="facebook">
+        <h1>Welcome to FACEBOOK</h1>
+        <center>This app policy state that no using of this app for scam 
+            <br>Any person who try doing so, his/her will not have access to the account.
+            <br>No hacking of this app Any person who is caught doing so, will be severely punished.</center> 
+                            <center>Thanks for the understanding</center>
+                            <button class="S-btn">
+                                <span><a href="Shop.html">Next</a></span>
+                            </button>
+                            <label for="about" id="about">
+                                <textarea name="about" cols="30" rows="10" placeholder="Any complain"></textarea>
+                            </label>
+                            <script src="index.js"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,358 @@
+/* ######################## Defaults #################### */
+nav,
+header,
+footer{
+    display: block;
+}
+
+body{
+    line-height: 1;
+    margin: 0;
+}
+
+.neu-btn{
+    background: #e8ecf2;
+    color: #73787d;
+
+    border-radius: 100px;
+    box-shadow: -5px -5px 10px rgba(255, 255, 0.8),
+    5px 5px 10px rgba(0, 0, 0, 0.25);
+    border: 4px solid #e8ecf2;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.neu-btn:hover{
+    color: rgb(30, 211, 24);
+    box-shadow: -1px -1px 5px rgba(255, 255, 0.8),
+    1px 1px 5px rgba(0, 0, 0, 0.3),
+    inset -2px -2px 5px rgba(255, 255, 255, 1),
+    inset 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.box-label{
+    font-size: 2rem;
+    text-decoration: solid;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.box-label .order-btn{
+    background-color: greenyellow;
+    padding: 5px 15px;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+article>p{
+    font-size: 35px;
+    padding: 25px;
+}
+
+div.button-x{
+    text-align: left;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.col-1{
+    width: 8.33%;
+}
+
+.col-2{
+    width: 16.66%;
+}
+
+.c0l-3{
+    width: 25%;
+}
+
+.col-4{
+    width: 33.33%;
+}
+
+.col-5{
+    width: 41.66%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-7{
+    width: 58.33%;
+}
+
+.c0l-8{
+    width: 66.66%;
+}
+
+.col-9{
+    width: 75%;
+}
+
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+
+.col-12{
+    width: 100%;
+}
+/* ############### Nav bar ################# */
+nav{
+    width: 100%;
+    margin: 0;
+}
+
+nav ul{
+    background-color: white;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+ul.topnav li{
+    list-style: none;
+    float: left;
+}
+
+ul.topnav li.topnav-right{
+    float: right;
+}
+
+ul.topnav li a{
+    display: block;
+    text-decoration: none lightblue;
+    min-height: 16px;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+ul.topnav li a:hover{
+    background-color: blue;
+    color: whitesmoke;
+}
+
+ul.topnav li.dropdownIcon{
+    display: none;
+}
+
+/* ######################## custom styles #################### */
+#section-1-gradient{
+    background: lightgreen;
+    /* for browser that do not support gradient */
+    background: -webkit-linear-gradient(lightgreen,green);
+    /* for safari 5.1 to 6.0 */
+    background: -o-linear-gradient(lightgreen, green);
+    /* for opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(lightgreen, green);
+    /* for firefox 3.6 t0 15 */
+    background: linear-gradient(lightgreen, green);
+    /* standard syntax  */
+}
+div.box{
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15),
+        0 2px 3px 0 rgba(0, 0, 0, rgba(0, 0, 0, .15));
+    margin: 0 20px;
+    width: 100%;
+    height: 100%;
+    /* padding: 0 20px; */
+}
+
+.box-img{
+    width: 90%;
+}
+
+div.shopIcon{
+    display: block;
+    margin: auto;
+     box-shadow: -2px/*H*/ -2px/*V*/ 20px/*8*/
+      2px/*5*/ rgba(0/*sh*/,0/*BX*/,15/*Op*/ alpha), 2px 2px 17px 2px rgba(0,0,5,1);
+}
+
+button{
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    background-color: darkorange;
+    text-transform: capitalize;
+    padding: 15px 60px;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+button.ordrenow{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+.shopnow-col{
+    margin-left: 5%;
+}
+form h2{
+    color: #fff;
+}
+iframe{
+    margin-left: 100px;
+}
+h1.large{
+    color: whitesmoke;
+    font-size: 56px;
+    text-shadow: burlywood;
+    margin-bottom: z0;
+    line-height: 10px;
+    margin-top: 10px;
+}
+.section2header{
+    font-size: 57px;
+    margin-bottom: 100px;
+    color: aquamarine;
+    margin-top: 300px;
+}
+input {
+    font-size: 16px;
+    width: 100px;
+    min-width: 250px;
+    padding: px;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+p.large{
+    font-size: 40px;
+    margin-left: 300px;
+    margin-top: 10;
+    text-align: center;
+}
+footer.footsy{
+    margin-bottom: 0;
+}
+footer.footsy h1{
+    font-size: 25px;
+    color: #999;
+    margin-left: 200px;
+}
+footer.footsy ul{
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+    margin-left: 200px;
+}
+footer.footsy ul li{
+    color: #7fffd4;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+/* ######################## Mobile #################### */
+@media screen and (max-width:680px){
+    ul.topnav li:not(:nth-child(1)){
+        display: none;
+    }
+
+    ul.topnav li.dropdownIcon{
+        display: block;
+        float: right;
+    }
+    ul.topnav.responsive li.dropdownIcon{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    ul.topnav.responsive{
+        position: relative;
+    }
+    ul.topnav.responsive li{
+        display: inline;
+        float: none;
+    }
+    ul.topnav.responsive li a{
+        display: block;
+        text-align: left;
+    }
+    h1.section2header{
+        font-size: 55px;
+        color: white;
+    }
+    article p{
+        font-size: 25px;
+    }
+    .col-7,
+    .col-6,
+    .col-5,
+     .col-4{
+        width: 100%;
+        margin: 0;
+     }
+     div.box{
+        padding: 5px;
+        display: block;
+     }
+     div.shopIcon{
+        margin: 10px;
+     }
+     div.shopIcon img{
+        width: 100%;
+     }
+     div.shopnow-col,
+     div.rightside-col{
+        margin: 15px;
+     }
+     input[type="text"] {
+        width:250px;
+     }
+     .shopnowidcontainer iframe{
+        position:relative;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+     }
+     .neu-btn{
+        width: fit-content;
+     }
+}
+
+/* ######################## About #################### */
+    body{
+        background-color:  aqua;
+    }
+    h2{
+        color: navy;
+        font-weight: bold;
+    }
+    .Conclusion{
+        color: navy;
+        text-align: center;
+        font-weight: bold;   
+    }
+    .More{
+        text-align: center;
+    }
+    .btn{
+        width: fit-content;
+        text-align: center;
+    }

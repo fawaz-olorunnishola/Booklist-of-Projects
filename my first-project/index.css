@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    background-color: aqua;
+    font-weight: bold;
+    
+}
+
+#Registered-btn{
+    background: red;
+    color: white;
+}
+
+#save-btn{
+    background: green;
+    color: white;
+}
+
+#save-el{
+    font-weight: bold;
+} 
+
+div{
+    text-align: left;
+    margin-top: 50px;
+}
+img{
+    background-size: contain;
+    height: 300px;
+    width: 220px;
+    
+}
+
+button{
+    background: white;
+    padding: 5px ;
+    border-radius: 7px;
+    font-weight: bold;
+} 
+/* 
+    .row-O{
+    width: 100%;
+     display: flex; 
+     flex-wrap: wrap;
+    align-items: center;
+    border-top-left-radius: 2px; 
+    }
