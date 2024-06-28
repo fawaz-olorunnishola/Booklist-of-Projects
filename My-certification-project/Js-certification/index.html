@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Roman</title>
+  </head>
+  <body>
+    
+    <div id="output">
+      <label for="number"
+        >Arabic to Roman Numerals<input
+          type="number"
+          name="arabicNumeral"
+          id="number"
+          min="0"
+          max="3999"
+          step="1"
+          placeholder="Enter an integer between 0 and 3999"
+        />
+        
+      </label>
+
+      <hr />
+      <button type="button" id="convert-btn" onclick="convertToRoman()">
+        Convert
+      </button>
+
+      <button type="button" id="display"></button>
+    </div>
+    <br><br><br>
+    <div class="reset" id="reset">
+      <button type="button" id="reset-btn" onclick="resetResult()">
+        Reset
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
